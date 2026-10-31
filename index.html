@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Axel Hepanao's digital business card. Reach me by phone or through my social profiles.">
+  <title>Axel Hepanao | Digital Business Card</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-icon">A</span>
+      <span id="brandName">PRESTIGE</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot"></span> BUSINESS DIGITAL PROFILE</div>
+
+        <h1 id="heroTitle">Your Business.<br><span>Your Digital Identity.</span></h1>
+
+        <p id="heroDescription">
+          Discover our story, explore our services, and connect with us through one premium digital experience.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#services" class="button primary">Explore Services ↗</a>
+          <a href="#contact" class="button secondary">Contact Us</a>
+        </div>
+
+        <div class="hero-trust">
+          <span class="trust-line"></span>
+          <span>LET'S CONNECT.</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="visual-card">
+          <div class="visual-top">
+            <span class="mini-logo">A</span>
+            <span class="live-label">DIGITAL PROFILE</span>
+          </div>
+          <div class="visual-center">
+            <img class="profile-photo" id="profileImage" src="assets/axel-hepanao.png" alt="Axel Hepanao profile photo">
+            <h2 id="visualName">YOUR BRAND</h2>
+            <p class="profile-card-tagline">LET'S CONNECT</p>
+          </div>
+          <div class="profile-actions" id="profileActions" aria-label="Contact and social links"></div>
+          <a class="profile-more-link" href="#about">More about me <span>↓</span></a>
+          <div class="visual-bottom">
+            <span>PREMIUM EXPERIENCE</span>
+            <span>01 / 01</span>
+          </div>
+        </div>
+        <div class="floating-chip chip-top">✧ Modern Identity</div>
+        <div class="floating-chip chip-bottom">● NFC READY</div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>01</strong><span>Digital Profile</span></div>
+      <div><strong>∞</strong><span>Possibilities</span></div>
+      <div><strong>24/7</strong><span>Online Presence</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">01 — WHO WE ARE</span>
+        <h2>More than a business.<br><span>A lasting impression.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image">
+          <img id="aboutImage" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Modern business workspace">
+          <div class="image-caption">BUILT WITH PURPOSE.</div>
+        </div>
+        <div class="about-copy">
+          <span class="small-label">OUR STORY</span>
+          <h3 id="aboutTitle">We make every connection count.</h3>
+          <p id="aboutText">We are committed to providing quality products and services while building meaningful relationships with every customer. Our goal is to make every experience simple, professional, and memorable.</p>
+          <a href="#contact" class="text-link">Get to know us <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading">
+        <span class="eyebrow">02 — WHAT WE DO</span>
+        <h2>Services designed<br><span>around your needs.</span></h2>
+        <p>Explore what we can offer and discover how we can help you.</p>
+      </div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading">
+        <span class="eyebrow">03 — FEATURED OFFERINGS</span>
+        <h2>Discover our<br><span>featured products.</span></h2>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="section showcase-section" id="showcase">
+      <div class="section-heading">
+        <span class="eyebrow">04 — OUR SHOWCASE</span>
+        <h2>See our work<br><span>in action.</span></h2>
+      </div>
+      <div class="video-frame" id="videoFrame">
+        <div class="video-placeholder">
+          <span class="play-icon">▶</span>
+          <p>VIDEO SHOWCASE</p>
+          <small>Add your YouTube video ID in script.js</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <span class="eyebrow">05 — SELECTED WORK</span>
+        <h2>A closer look at<br><span>what we create.</span></h2>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <section class="section why-section">
+      <div class="section-heading">
+        <span class="eyebrow">06 — THE DIFFERENCE</span>
+        <h2>Why choose <span id="whyBrand">us?</span></h2>
+      </div>
+      <div class="features-grid" id="featuresGrid"></div>
+    </section>
+
+    <section class="section testimonials-section" id="testimonials">
+      <div class="section-heading">
+        <span class="eyebrow">07 — CLIENT EXPERIENCES</span>
+        <h2>Words that <span>matter.</span></h2>
+      </div>
+      <div class="testimonial-grid" id="testimonialGrid"></div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="section-heading">
+        <span class="eyebrow">08 — NEED TO KNOW</span>
+        <h2>Frequently asked<br><span>questions.</span></h2>
+      </div>
+      <div class="faq-list" id="faqList"></div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-card">
+        <span class="eyebrow">09 — LET'S CONNECT</span>
+        <h2>Ready to make<br><span>the next connection?</span></h2>
+        <p>Have a question or want to work with us? Reach out through any of our channels.</p>
+        <div class="contact-actions" id="contactActions"></div>
+        <div class="social-links" id="socialLinks"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand">
+      <span class="brand-icon">A</span>
+      <span id="footerBrand">PRESTIGE</span>
+    </a>
+    <p id="footerText">A better way to connect.</p>
+    <span>© <span id="year"></span> <span id="copyrightName">PRESTIGE</span>. All rights reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
